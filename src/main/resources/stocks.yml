@@ -1,0 +1,17 @@
+stocks:
+  IRON_WORKS:
+    name: "무쇠 공업 (IRON)"
+    price: 1500
+    display_item: "IRON_INGOT"
+  REDSTONE_TECH:
+    name: "레드스톤 전자 (RED)"
+    price: 7000
+    display_item: "GOLD_INGOT"
+  DIA_BANK:
+    name: "다이아몬드 거래소 (DIA)"
+    price: 10000
+    display_item: "DIAMOND"
+  ENDER_LABS:
+    name: "엔더 연구소 (END)"
+    price: 50000
+    display_item: "EMERALD"

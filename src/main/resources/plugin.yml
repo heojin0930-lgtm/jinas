@@ -1,0 +1,26 @@
+name: EconomyPlugin
+version: 1.0
+main: me.heojin.economy.EconomyPlugin
+api-version: '1.20'
+author: heojin
+description: A simple economy plugin with a GUI.
+commands:
+  money:
+    description: Main economy command
+    aliases: [돈, 잔액]
+  pay:
+    description: Pay money to another player
+    aliases: [보내기, 송금]
+  shop:
+    description: Open the server shop
+    aliases: [상점]
+  stock:
+    description: Open the stock market GUI
+    aliases: [주식, 투자]
+  sell:
+    description: Open the sell shop GUI
+    aliases: [판매, 팔기]
+permissions:
+  economy.admin:
+    description: Admin permissions for economy
+    default: op
